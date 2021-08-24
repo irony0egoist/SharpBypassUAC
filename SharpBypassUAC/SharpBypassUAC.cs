@@ -30,13 +30,13 @@ namespace SharpBypassUAC
                 if (help || bypass == null)
                 {
                     options.WriteOptionDescriptions(Console.Out);
-                    System.Environment.Exit(1);
+                    
                 }
                 else if (encodedCommand == null)
                 {
                     Console.Write("Missing encoded command to execute\n\n");
                     options.WriteOptionDescriptions(Console.Out);
-                    System.Environment.Exit(1);
+               
                 }
                 else if (bypass.ToLower().Equals("eventvwr"))
                 {
