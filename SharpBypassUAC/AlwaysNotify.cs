@@ -18,7 +18,7 @@ namespace SharpBypassUAC
             if (consentPrompt == "2" & secureDesktopPrompt == "1")
             {
                 System.Console.WriteLine("UAC is set to 'Always Notify.' This attack will fail. Exiting...");
-                System.Environment.Exit(1);
+                
             }
         }
     }
