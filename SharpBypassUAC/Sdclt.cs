@@ -24,7 +24,7 @@ namespace SharpBypassUAC
             if (!windowsVersion.Contains("Windows 10"))
             {
                 System.Console.WriteLine("System is not Windows 10. This attack will fail. Exiting...");
-                System.Environment.Exit(1);
+            
             }
 
             //Convert encoded command to a string
