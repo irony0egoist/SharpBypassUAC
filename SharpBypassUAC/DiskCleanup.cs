@@ -24,7 +24,7 @@ namespace SharpBypassUAC
             if (!command.Contains("REM"))
             {
                 Console.WriteLine("Command must end in REM. Exiting...");
-                System.Environment.Exit(1);
+                
             }
 
             //Set the registry key for eventvwr
